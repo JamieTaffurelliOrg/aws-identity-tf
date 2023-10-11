@@ -5,7 +5,7 @@ concurrency: ci-${{ github.workflow }}-${{ github.ref }}
 permissions: read-all
 
 jobs:
-  call-terraform-module-pre-commit-workflow:
+  call-terraform-module-pre-commit-workflo:
     uses: JamieTaffurelliOrg/github-actions-templates/.github/workflows/terraform-module-pre-commit-template.yaml@main
     with:
       terraform-version: '1.5.1'
